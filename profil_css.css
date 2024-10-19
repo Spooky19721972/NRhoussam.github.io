@@ -1,0 +1,81 @@
+.conteneur{
+    display: grid;
+    grid-template-columns: 2fr 1fr ; /* Three columns with varying widths */
+    grid-template-rows: px 100x; /* Two rows of different heights */
+   
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+.conteneur1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+}
+
+form{
+    text-align: center;
+    
+}
+input,textarea{
+    color: rgb(201, 8, 8);
+    border-radius: 60px ;
+    width: 500px;
+  background-color: rgba(0, 255, 255, 0.275);
+  border: 2px solid #ccc; 
+  margin: 20px ; 
+}
+
+h1{
+    color: green;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+p{
+    text-indent: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.6
+}
+h2{
+    color: red;
+    text-align: center;
+}
+table{
+  border:60px ;
+  border-color: brown;
+padding-left: 70px;
+font-size: 20px;
+}
+th{
+
+    color: lightblue;
+}
+th{
+    text-align: center;
+}
+li{
+    font-size: 25px;
+}
+label{
+    font-size: 20px;
+}
+button:hover {
+    background-color: #45a049;
+    transition:  0.3s ease-in;
+}
+button{
+    border-radius: 60px;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(255, 0, 0, 0.427);
+}
+td:hover{
+    background-color: #45a0497b;
+    transition: ease-in 0.3s;
+}
